@@ -1,0 +1,36 @@
+tr{
+    display: flex;
+    justify-content: space-around;
+}
+td{
+    padding: 10px 30px;
+    
+}
+th{
+    padding: 10px 30px;
+    
+}
+.all{
+    border: 1px solid black;
+}
+.pop-up-cont{
+    position: fixed;
+    background-color: rgb(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+}
+.pop-up-body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 40%;
+    background-color: white;
+    align-items: center;
+}
+.poppy{
+    display: none;
+}
